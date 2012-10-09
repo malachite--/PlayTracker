@@ -10,4 +10,8 @@ public class Application extends Controller {
 	public static Result test() {
 		return ok(test.render("This is a test."));
 	}
+
+	public static Result test2() {
+		return ok(test.render("This is another test."));
+	}
 }
